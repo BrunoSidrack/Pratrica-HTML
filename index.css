@@ -1,0 +1,49 @@
+body {
+    font-family: Helvetica;
+    text-align: Center;
+    color: #fff;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #666; 
+}
+
+nav ul {
+    display: flex;
+    align-items: Center;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    border: 5px solid #000
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    border-top: 2px solid #666;
+    margin-top: 20px;
+    text-align: left;
+}
