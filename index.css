@@ -1,49 +1,108 @@
-body {
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     font-family: Helvetica;
-    text-align: Center;
-    color: #fff;
-    background-color: #333;
-    padding: 0;
-    margin: 0;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+/* Cabeçalho */
+header {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #3b59ff
+}
+
+/* Grid de Produtos */
+.container {
+    background-color: white;
+    min-height: 60vh;
+    padding: 50px
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    border-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3b59ff;
+    font-size: 24px;
+    padding-top: 15px;       
+}
+
+.card p {
+    margin-bottom: 10px
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
     padding: 20px;
-    border-bottom: 2px solid #666; 
-}
-
-nav ul {
-    display: flex;
-    align-items: Center;
-    list-style: none;
-}
-
-ul li {
-    margin-right: 20px;
-}
-
-ul li a {
-    color: #fff;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-img {
-    border: 5px solid #000
-}
-
-footer {
-    display: flex;
-    align-items: center;
-}
-
-footer {
-    padding: 20px;
-    border-top: 2px solid #666;
+    border-radius: 10px;
     margin-top: 20px;
-    text-align: left;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #3b59ff;
+}
+
+#img-1 {
+    background-image: url('../img/game1.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/game2.webp');
+}
+
+#img-3 {
+    background-image: url('../img/game3.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/game4.png');
+}
+
+#img-5 {
+    background-image: url('../img/game5.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/game6.jpg');
+}
+
+/* Footer */
+footer {
+    background-color: blue;
+    color: white;
+    border-top: 2px solid #3b59ff;
+    padding: 80px;
+    text-align: center;
 }
