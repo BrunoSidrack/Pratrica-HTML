@@ -45,7 +45,8 @@ h3 {
     margin-bottom: 10px;
     color: #3b59ff;
     font-size: 24px;
-    padding-top: 15px;       
+    padding-top: 15px;
+    tex-align: center;
 }
 
 .card p {
