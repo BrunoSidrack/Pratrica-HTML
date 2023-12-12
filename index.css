@@ -70,3 +70,12 @@ p {
     margin-bottom: 8%;
 }
 
+@media screen and (max-width: 768px) {
+    .image-container {
+        margin: -1em -2em;
+    }
+
+    .image-header {
+        margin: -3em -5em;
+    }
+}
