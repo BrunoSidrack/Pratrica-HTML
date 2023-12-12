@@ -51,10 +51,9 @@ p {
 .texto-princial {
     font-size: 19px;
     margin-top: 3%;
-    text-align: left;
     margin-bottom: 3%;
     line-height: 140%;
-    max-width: 650px;
+    max-width: 750px;
 }
 
 .btn {
