@@ -54,6 +54,8 @@ p {
     text-align: left;
     margin-bottom: 3%;
     line-height: 140%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .btn {
